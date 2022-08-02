@@ -9,6 +9,8 @@ git clone https://github.com/PedroIeremis/DIO-Bootcamp-Linux-Experience.git
 
 cd DIO-Bootcamp-Linux-Experience
 
+cd Script_Provisionamento_Web
+
 chmod +x iac2.sh
 
 ./iac2.sh
