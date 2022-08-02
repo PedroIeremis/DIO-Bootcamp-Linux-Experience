@@ -9,6 +9,8 @@ git clone https://github.com/PedroIeremis/DIO-Bootcamp-Linux-Experience.git
 
 cd DIO-Bootcamp-Linux-Experience
 
+cd Script_Usuarios_Perms
+
 chmod +x iac.sh
 
 ./iac1.sh
