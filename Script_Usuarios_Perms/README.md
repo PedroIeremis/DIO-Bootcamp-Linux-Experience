@@ -11,5 +11,5 @@ cd DIO-Bootcamp-Linux-Experience
 
 chmod +x iac.sh
 
-./iac.sh
+./iac1.sh
 ```
