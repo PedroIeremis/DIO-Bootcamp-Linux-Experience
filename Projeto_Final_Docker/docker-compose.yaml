@@ -11,9 +11,8 @@ networks:
 services:
   web1:
     build: ./web1
-    container_name: container-web1
-    #ports:
-    #  - "111:111"
+    image: web01
+    container_name: web01
     volumes:
       - ./web1/volumeweb1:/usr/share/nginx/html
     networks:
@@ -22,7 +21,8 @@ services:
 
   web2:
     build: ./web2
-    container_name: container-web2
+    image: web02
+    container_name: web02
     volumes:
       - ./web2/volumeweb2:/usr/share/nginx/html
     networks:
@@ -31,6 +31,7 @@ services:
 
   proxy:
     build: ./proxy
+    image: proxy
     container_name: proxy
     ports:
       - "80:80"
@@ -38,5 +39,5 @@ services:
       my-network:
         ipv4_address: 10.17.0.4
     depends_on:
-      - "web1"
-      - "web2"
+      - "web01"
+      - "web02"
