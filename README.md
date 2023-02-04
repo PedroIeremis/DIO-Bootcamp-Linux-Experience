@@ -3,7 +3,7 @@
 Para obter o repositório localmente:
 
 ```shell
-git clone https://github.com/PedroIeremis/DIO-Bootcamp-Linux-Experience.git
+git clone https://github.com/pedroieremis/DIO-Bootcamp-Linux-Experience.git
 ```
 
 Acesse-o:
